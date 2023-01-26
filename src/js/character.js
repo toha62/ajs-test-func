@@ -2,10 +2,10 @@ export default function getHealth(character) {
   if (!character) {
     return null;
   }
-  if (character.helth > 50) {
+  if (character.health > 50) {
     return 'healthy';
   }
-  if (character.helth >= 15) {
+  if (character.health >= 15) {
     return 'wounded';
   }
   return 'critical';
