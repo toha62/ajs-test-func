@@ -16,5 +16,5 @@ test.each([
 test('should return null without args', () => {
   const result = getHealth();
 
-  expect(result).toBe(null);
+  expect(result).toBeNull();
 });
